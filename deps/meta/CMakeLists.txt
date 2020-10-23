@@ -62,9 +62,9 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/deps/findicu)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/deps/meta-cmake/)
 
 FindOrBuildICU(
-  VERSION 61.1
-  URL http://download.icu-project.org/files/icu4c/61.1/icu4c-61_1-src.tgz
-  URL_HASH MD5=68fe38999fef94d622bd6843d43c0615
+  VERSION 67.1
+  URL https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz
+  URL_HASH MD5=c4d62b497cbd89ab2a9ca6b543e57b30
 )
 
 add_library(meta-definitions INTERFACE)

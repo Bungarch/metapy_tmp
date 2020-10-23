@@ -10,6 +10,8 @@
 #ifndef META_SEQUENCE_MARKOV_MODEL_H_
 #define META_SEQUENCE_MARKOV_MODEL_H_
 
+#include <stdexcept>
+
 #include "meta/stats/dirichlet.h"
 #include "meta/util/dense_matrix.h"
 #include "meta/util/identifiers.h"
